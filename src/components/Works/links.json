@@ -1,0 +1,62 @@
+[
+    
+    {
+        "withPage": [
+
+            {
+                "pages": [
+                    "https://wfanni.github.io/create-character.github.io/",
+                    "https://wfanni.github.io/beer-logo-design.github.io/",
+                    "https://wfanni.github.io/nasa-potd.github.io/",
+                    "https://wfanni.github.io/weather-app.github.io/",
+                    "https://wfanni.github.io/first-ever-landing-page.github-io/",
+                    "https://wfanni.github.io/odyssey-surf-club.github.io/",
+                    "https://wfanni.github.io/dog-shelter-landing-page.github.io/"
+                ]
+            },
+        
+            {
+                "github": [
+                    "https://github.com/wfanni/create-character.github.io",
+                    "https://github.com/wfanni/beer-logo-design.github.io",
+                    "https://github.com/wfanni/nasa-potd.github.io",
+                    "https://github.com/wfanni/weather-app.github.io",
+                    "https://github.com/wfanni/first-ever-landing-page.github-io",
+                    "https://github.com/wfanni/odyssey-surf-club.github.io",
+                    "https://github.com/wfanni/dog-shelter-landing-page.github.io"        
+                ]
+            }
+        ]
+    },
+
+    {
+        "withoutPage": [
+            {
+                "href": "https://github.com/wfanni/pacific-calm",
+                "src": "../media/pacific-calm.png",
+                "alt": "pacific-calm"
+            },
+            {
+                "href": "https://github.com/wfanni/login-form",
+                "src": "../media/login.png",
+                "alt": "login-form"
+            },
+            {
+                "href": "https://github.com/wfanni/rick-and-morty-api",
+                "src": "../media/rick.png",
+                "alt": "rick-and-morty"
+            },
+            {
+                "href": "https://github.com/wfanni/star-wars-api",
+                "src": "../media/starwars.png",
+                "alt": "star-wars"
+            },
+            {
+                "href": "https://github.com/wfanni/napoletana-pizzeria",
+                "src": "../media/napoletana.png",
+                "alt": "napoletana-pizzeria"
+            }
+        ]
+    }
+    
+]
