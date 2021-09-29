@@ -84,6 +84,33 @@ const Contact = styled(ContactStructure)`
 
     }
 
+    /* @media screen and (max-width: 700px) {
+        h2 {
+            font-size: 1.5em;
+
+            span {
+                right: -2vh;
+
+            }
+        }
+
+        div {
+            width: 70%;
+            margin-left: 0;
+
+            span {
+                font-size: 1.1em;
+            }
+            
+        }
+
+        .contact-photo {
+            width: 50%;
+            top: 60vh;
+            left: 10vh;
+        }
+    } */
+
 
 
 `

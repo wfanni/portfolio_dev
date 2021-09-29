@@ -23,7 +23,7 @@ const SkillsStructure = ({ className }) => {
                     <div className="react">reactjs</div>
                 </div>
                 <div className="progress-bar">
-                    <div className="backend">backend tech (node.js, express.js)</div>
+                    <div className="backend">backend tech <span>(node.js, express.js)</span></div>
                 </div>
             </div>
             <div className="graphic">
@@ -123,6 +123,28 @@ const Skills = styled(SkillsStructure)`
             width: 50%;
         }
     }
+
+    /* @media screen and (max-width: 700px) {
+        gap: 0;
+
+        .progress-bar {
+            width: 250px;
+            height: 25px;
+
+            div {
+                font-size: 0.7em;
+                line-height: 10px;
+
+            }
+
+            .backend {
+                span {
+                    font-size: 0.4em;
+                }
+            }
+        }
+
+    } */
 
 `
 

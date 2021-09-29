@@ -36,7 +36,6 @@ const HomeStructure = ({ className }) => {
 }
 
 const Home = styled(HomeStructure)`
-    /* position: relative; */
     width: 100%;
     height: 100vh;
 
@@ -94,6 +93,41 @@ const Home = styled(HomeStructure)`
             }
         }
     }
+
+    /* @media screen and (max-width: 700px) {
+        flex-direction: column;
+        gap: 10vh;
+
+
+        #hero {
+            width: 50%;
+            order: 2;
+        }
+
+        .welcome {
+            margin-top: 0;
+            width: 100%;
+
+            span:first-child {
+                font-size: 2em;
+                text-indent: 12vh;
+            }
+
+            #myName {
+                font-size: 1.5em;
+                text-indent: 17vh;
+
+            }
+
+            #whoAmI {
+                text-indent: 15vh;
+                font-size: 1em;
+
+
+            }
+        }
+    } */
+
 `
 
 export default Home

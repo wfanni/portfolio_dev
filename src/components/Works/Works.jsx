@@ -129,6 +129,36 @@ const Works = styled (WorksStructure)`
         }
     }
 
+    
+    /* @media screen and (max-width: 700px) {
+        height: 375vh;
+        
+        h2 {
+            margin-top: 0;
+            
+        }
+        
+        div {
+            margin-top: 0;
+            margin-bottom: 10vh;
+            gap: 15vh;
+        }
+        .works {
+            img {
+                width: 75%;
+            }
+
+            a {
+                bottom: -6.5vh;
+                left: 50%;
+                transform: translateX(-50%);
+
+            }
+
+            
+        }
+    } */
+
 
 `
 

@@ -8,7 +8,7 @@ const AboutStructure = ({ className }) => {
     return (
         <div id="about" className={className}>
             <h2>About</h2>
-            <p><b>I always loved computers.</b> <span className="first-sentence">Everytime I sat in front of one I felt the unlimited possibilities and <i>creativity</i> that could be done with just one computer and some internet connection.</span> I was always interested in creating websites <span className="comment">(how fun is that!)</span>, but never actually thought I could do it. <q>Oh I'm just a girl, maybe I don't have the brain for it.</q> Despite this thought I started learning <b>HTML</b> and <b>CSS</b> in my teenage years, although I didn't think I would work in the field when the time comes. When the pandemic happened <b>-</b> right after I finished my Tourism course <b>-</b> I knew I had to adapt and learn something that I can really use in the future <span className="comment">(who knows what's coming next!)</span>. I decided to pursue my interest in <span className="web">Web Development</span> and I attended an intensive 4-month <em>Junior Frontend Developer</em> course at <a href="https://codecool.com/en/" target="_blank" rel="noreferrer">Codecool</a>. <span className="last-sentence">I don't know what the future holds and I know I have to learn a <b>LOT</b> more, but I am ready to jump right in!</span></p>
+            <p><b className="title">I always loved computers.</b> <span className="first-sentence">Everytime I sat in front of one I felt the unlimited possibilities and <i>creativity</i> that could be done with just one computer and some internet connection.</span> I was always interested in creating websites <span className="comment">(how fun is that!)</span>, but never actually thought I could do it. <q>Oh I'm just a girl, maybe I don't have the brain for it.</q> Despite this thought I started learning <b>HTML</b> and <b>CSS</b> in my teenage years, although I didn't think I would work in the field when the time comes. When the pandemic happened <b>-</b> right after I finished my Tourism course <b>-</b> I knew I had to adapt and learn something that I can really use in the future <span className="comment">(who knows what's coming next!)</span>. I decided to pursue my interest in <span className="web">Web Development</span> and I attended an intensive 4-month <em>Junior Frontend Developer</em> course at <a href="https://codecool.com/en/" target="_blank" rel="noreferrer">Codecool</a>. <span className="last-sentence">I don't know what the future holds and I know I have to learn a <b>LOT</b> more, but I am ready to jump right in!</span></p>
             
         </div>
     )
@@ -79,9 +79,8 @@ const About = styled(AboutStructure)`
             height: 300px;
         }
 
-        b:first-child {
+        .title {
             display: inline-block;
-            /* text-indent: -5vh; */
             color: #ff5d30;
             font-size: 1.2em;
 
@@ -155,6 +154,10 @@ const About = styled(AboutStructure)`
             margin: 4vh 0 0 0;
             line-height: 3vh;
             margin-bottom: 0.5vh;
+
+            b:first-child {
+                display: inline-block;
+            }
         }
     }
 
@@ -164,6 +167,87 @@ const About = styled(AboutStructure)`
         background-position: 300% center;
         }
     }
+
+    /* @media screen and (max-width: 700px) {
+        height: 120vh;
+        &::after {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            content: '';
+            background-image: url(${smallTriangle});
+            background-repeat: no-repeat;
+            transform: rotate(-20deg) scale(0.5);
+            width: 200px;
+            height: 220px;
+        }
+
+        h2 {
+            margin-top: 0;
+            
+            &::after {
+                position: absolute;
+                top: 23vh;
+                left: 5vh;
+                content: '';
+                background-image: url(${smallTriangle});
+                background-repeat: no-repeat;
+                transform: rotate(20deg) scale(0.4);
+                width: 300px;
+                height: 300px;
+                z-index: 100;
+
+            }
+        }
+        p {
+            font-size: 0.65em;
+            line-height: 2.5vh;
+
+            &::after {
+                position: absolute;
+                top: -20vh;
+                left: -25vh;
+                content: '';
+                background-image: url(${bigTriangle});
+                background-repeat: no-repeat;
+                transform: rotate(-10deg) scale(0.4);
+                width: 300px;
+                height: 300px;
+            }
+
+            .title {
+                text-indent: 4vh;
+                margin-bottom: 1vh;
+            }
+
+            .first-sentence {
+                margin: 0 0 1vh 0;
+            }
+
+            q {
+                width: 90%;
+                display: inline-block;
+                margin: 1vh 5%;
+                text-indent: 0;
+                text-align: center;
+            }
+
+            em {
+                text-decoration: underline;
+                text-decoration-style: wavy;
+                text-underline-offset: 0.2vh;
+                text-decoration-color: #ff5d30;
+            
+            }
+
+            a {
+                padding: 0.2vh;
+            }
+
+            
+
+        }
+    } */
 
 `
 
