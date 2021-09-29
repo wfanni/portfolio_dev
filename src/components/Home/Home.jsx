@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react';
 import styled from 'styled-components';
 
-import hero from '../media/hero_photo.svg';
-// import hero from '../media/hero.png';
+// import hero from '../media/hero_photo.svg';
+import hero from '../media/hero2.svg';
 import pattern from '../media/pattern.png';
 
 
