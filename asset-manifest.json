@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio.github.io/static/css/main.a9147c24.chunk.css",
+    "main.js": "/portfolio.github.io/static/js/main.d2b171ab.chunk.js",
+    "main.js.map": "/portfolio.github.io/static/js/main.d2b171ab.chunk.js.map",
+    "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.ac3089c5.js",
+    "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.ac3089c5.js.map",
+    "static/js/2.41a58bdc.chunk.js": "/portfolio.github.io/static/js/2.41a58bdc.chunk.js",
+    "static/js/2.41a58bdc.chunk.js.map": "/portfolio.github.io/static/js/2.41a58bdc.chunk.js.map",
+    "static/js/3.f2733171.chunk.js": "/portfolio.github.io/static/js/3.f2733171.chunk.js",
+    "static/js/3.f2733171.chunk.js.map": "/portfolio.github.io/static/js/3.f2733171.chunk.js.map",
+    "index.html": "/portfolio.github.io/index.html",
+    "static/css/main.a9147c24.chunk.css.map": "/portfolio.github.io/static/css/main.a9147c24.chunk.css.map",
+    "static/js/2.41a58bdc.chunk.js.LICENSE.txt": "/portfolio.github.io/static/js/2.41a58bdc.chunk.js.LICENSE.txt",
+    "static/media/beer-logo.f0f2fbc5.png": "/portfolio.github.io/static/media/beer-logo.f0f2fbc5.png",
+    "static/media/big-triangle.a3f20140.svg": "/portfolio.github.io/static/media/big-triangle.a3f20140.svg",
+    "static/media/contact-photo.ea834bc5.svg": "/portfolio.github.io/static/media/contact-photo.ea834bc5.svg",
+    "static/media/create-character.075532cf.png": "/portfolio.github.io/static/media/create-character.075532cf.png",
+    "static/media/hero_photo.b5c21e4a.svg": "/portfolio.github.io/static/media/hero_photo.b5c21e4a.svg",
+    "static/media/login.7dbdcbc4.png": "/portfolio.github.io/static/media/login.7dbdcbc4.png",
+    "static/media/napoletana.e44d61eb.png": "/portfolio.github.io/static/media/napoletana.e44d61eb.png",
+    "static/media/nasa.e0a9cadb.png": "/portfolio.github.io/static/media/nasa.e0a9cadb.png",
+    "static/media/ngo.e4a06c07.png": "/portfolio.github.io/static/media/ngo.e4a06c07.png",
+    "static/media/odyssey.34e2030a.png": "/portfolio.github.io/static/media/odyssey.34e2030a.png",
+    "static/media/pacific-calm.557d9fcd.png": "/portfolio.github.io/static/media/pacific-calm.557d9fcd.png",
+    "static/media/rick.369d4ea5.png": "/portfolio.github.io/static/media/rick.369d4ea5.png",
+    "static/media/shelter.5ec3c4fd.png": "/portfolio.github.io/static/media/shelter.5ec3c4fd.png",
+    "static/media/small-triangle.1e4be6ec.svg": "/portfolio.github.io/static/media/small-triangle.1e4be6ec.svg",
+    "static/media/starwars.262da98a.png": "/portfolio.github.io/static/media/starwars.262da98a.png",
+    "static/media/weather.a1e08da3.png": "/portfolio.github.io/static/media/weather.a1e08da3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac3089c5.js",
+    "static/js/2.41a58bdc.chunk.js",
+    "static/css/main.a9147c24.chunk.css",
+    "static/js/main.d2b171ab.chunk.js"
+  ]
+}
