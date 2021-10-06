@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import pattern from '../media/pattern.png';
-import contact_photo from '../media/contact-photo.svg';
+// import contact_photo from '../media/contact-photo.svg';
+import contact_photo from '../media/contactme.svg';
 import linkedin from '../media/linkedin.png';
 
 const ContactStructure = ({ className }) => {
