@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio.github.io/static/css/main.741debd7.chunk.css",
-    "main.js": "/portfolio.github.io/static/js/main.5ccae8af.chunk.js",
-    "main.js.map": "/portfolio.github.io/static/js/main.5ccae8af.chunk.js.map",
+    "main.js": "/portfolio.github.io/static/js/main.b4525ca4.chunk.js",
+    "main.js.map": "/portfolio.github.io/static/js/main.b4525ca4.chunk.js.map",
     "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.ac3089c5.js",
     "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.ac3089c5.js.map",
     "static/js/2.b4f9c667.chunk.js": "/portfolio.github.io/static/js/2.b4f9c667.chunk.js",
@@ -14,9 +14,9 @@
     "static/js/2.b4f9c667.chunk.js.LICENSE.txt": "/portfolio.github.io/static/js/2.b4f9c667.chunk.js.LICENSE.txt",
     "static/media/beer-logo.f0f2fbc5.png": "/portfolio.github.io/static/media/beer-logo.f0f2fbc5.png",
     "static/media/big-triangle.a3f20140.svg": "/portfolio.github.io/static/media/big-triangle.a3f20140.svg",
-    "static/media/contact-photo.ea834bc5.svg": "/portfolio.github.io/static/media/contact-photo.ea834bc5.svg",
+    "static/media/contactme.35db151d.svg": "/portfolio.github.io/static/media/contactme.35db151d.svg",
     "static/media/create-character.075532cf.png": "/portfolio.github.io/static/media/create-character.075532cf.png",
-    "static/media/hero2.71478df0.svg": "/portfolio.github.io/static/media/hero2.71478df0.svg",
+    "static/media/hero3.7a32fddf.svg": "/portfolio.github.io/static/media/hero3.7a32fddf.svg",
     "static/media/login.7dbdcbc4.png": "/portfolio.github.io/static/media/login.7dbdcbc4.png",
     "static/media/napoletana.e44d61eb.png": "/portfolio.github.io/static/media/napoletana.e44d61eb.png",
     "static/media/nasa.e0a9cadb.png": "/portfolio.github.io/static/media/nasa.e0a9cadb.png",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.ac3089c5.js",
     "static/js/2.b4f9c667.chunk.js",
     "static/css/main.741debd7.chunk.css",
-    "static/js/main.5ccae8af.chunk.js"
+    "static/js/main.b4525ca4.chunk.js"
   ]
 }
