@@ -25,7 +25,7 @@ const About = styled(AboutStructure)`
     flex-direction: column;
     gap: 5vh;
 
-    &::after {
+    /* &::after {
         position: absolute;
         bottom: 0;
         left: 20vh;
@@ -35,14 +35,14 @@ const About = styled(AboutStructure)`
         transform: scale(0.9);
         width: 200px;
         height: 220px;
-    }
+    } */
     
     h2 {
         position: relative;
         margin-top: -2vh;
         font-size: 2em;
 
-        &::after {
+        /* &::after {
             position: absolute;
             top: 0;
             left: 60vh;
@@ -54,7 +54,7 @@ const About = styled(AboutStructure)`
             height: 300px;
             z-index: 100;
 
-        }
+        } */
     }
 
     p {
@@ -68,7 +68,7 @@ const About = styled(AboutStructure)`
         font-family: monospace;
         box-shadow: -10px 10px 50px rgba(0, 0, 0, 0.25);
 
-        &::after {
+        /* &::after {
             position: absolute;
             bottom: 0;
             left: -15vh;
@@ -77,7 +77,7 @@ const About = styled(AboutStructure)`
             background-repeat: no-repeat;
             width: 300px;
             height: 300px;
-        }
+        } */
 
         .title {
             display: inline-block;

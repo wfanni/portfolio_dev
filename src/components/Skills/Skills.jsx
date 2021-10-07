@@ -66,7 +66,7 @@ const Skills = styled(SkillsStructure)`
         margin-bottom: 2vh;
         box-shadow: -10px 4px 30px rgba(0,0,0,0.05);
 
-        &::after {
+        /* &::after {
             position: absolute;
             bottom: -5vh;
             right: 60vh;
@@ -78,7 +78,7 @@ const Skills = styled(SkillsStructure)`
             height: 300px;
             z-index: 100;
             opacity: 0.2;
-        }
+        } */
 
         div {
             height: inherit;
