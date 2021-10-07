@@ -19,13 +19,21 @@ body {
 
 #root {
   width: 100%;
+  position: relative;
 
   #alert {
     display: none;
   }
+
+  #page {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-@media only screen and (max-width: 28cm) {
+@media only screen and (max-width: 30cm) {
   #root {
     #alert {
       display: inline-block;

@@ -38,7 +38,7 @@ const HomeStructure = ({ className }) => {
 
 const Home = styled(HomeStructure)`
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 
     background-image: url(${pattern});
 
@@ -94,6 +94,37 @@ const Home = styled(HomeStructure)`
             }
         }
     }
+    // GOOD ONE
+    /* @media screen and (max-width: 1000px) {
+
+        flex-direction: column;
+        gap: 5vh;
+
+        #hero {
+            width: 50%;
+            transform: translateY(-10vh);
+            order: 2;
+            
+
+        }
+
+        .welcome {
+            margin: 0;
+            width: 75vh;
+            text-align: center;
+
+            #myName {
+ 
+                text-indent: 10vh;
+                
+            }
+
+            #whoAmI {
+                text-indent: 8vh;
+            }
+
+        }
+    } */
 
     /* @media screen and (max-width: 700px) {
         flex-direction: column;

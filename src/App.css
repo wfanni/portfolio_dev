@@ -20,13 +20,26 @@ body ul {
 
 #root {
   width: 100%;
+  position: relative;
 }
 
 #root #alert {
   display: none;
 }
 
-@media only screen and (max-width: 28cm) {
+#root #page {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (max-width: 30cm) {
   #root #alert {
     display: inline-block;
     font-size: 2em;

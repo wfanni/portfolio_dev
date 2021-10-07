@@ -17,7 +17,7 @@ const AboutStructure = ({ className }) => {
 const About = styled(AboutStructure)`
     position: relative;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 
     display: flex;
     justify-content: center;
@@ -40,7 +40,7 @@ const About = styled(AboutStructure)`
     h2 {
         position: relative;
         margin-top: -2vh;
-        font-size: 2em;
+        font-size: 2rem;
 
         /* &::after {
             position: absolute;
@@ -62,9 +62,10 @@ const About = styled(AboutStructure)`
         max-width: 65%;
         text-align: justify;
         line-height: 5vh;
-        font-size: 1.1em;
+        font-size: 0.95rem;
         background-color: #f1f1f1;
         padding: 3vh;
+        margin-bottom: 15vh;
         font-family: monospace;
         box-shadow: -10px 10px 50px rgba(0, 0, 0, 0.25);
 
@@ -80,9 +81,9 @@ const About = styled(AboutStructure)`
         } */
 
         .title {
-            display: inline-block;
+            display: block;
             color: #ff5d30;
-            font-size: 1.2em;
+            font-size: 1.1rem;
 
         }
 
@@ -109,7 +110,7 @@ const About = styled(AboutStructure)`
         }
 
         .comment {
-            font-size: 0.8em;
+            font-size: 0.7rem;
         }
 
         q {
@@ -152,7 +153,7 @@ const About = styled(AboutStructure)`
             margin-top: 2vh;
             text-align: end;
             margin: 4vh 0 0 0;
-            line-height: 3vh;
+            /* line-height: 3vh; */
             margin-bottom: 0.5vh;
 
             b:first-child {
@@ -167,6 +168,33 @@ const About = styled(AboutStructure)`
         background-position: 300% center;
         }
     }
+    // GOOD ONE
+    /* @media screen and (max-width: 1000px) {
+        h2 {
+            margin: 0 0 5vh 0;
+        }
+        p {
+
+            .title {
+                text-align: center;
+                margin-bottom: 2vh;
+            }
+
+            .first-sentence {
+                margin: 0;
+            }
+
+            q {
+                text-indent: 0;
+                text-align: center;
+                margin: 2vh 0;
+            }
+
+            .last-sentence {
+                text-align: justify;
+            }
+        }
+    } */
 
     /* @media screen and (max-width: 700px) {
         height: 120vh;

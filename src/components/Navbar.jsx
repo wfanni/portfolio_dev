@@ -49,9 +49,9 @@ const Navbar = styled(NavbarStructure)`
         display: none;
         position: fixed;
         top: 4vh;
-        right: 17vh;
-        width: 50px;
-        height: 50px;
+        right: 4vh;
+        width: 75px;
+        height: 75px;
         border: none;
         border-radius: 50vh;
         background-color: #ff5d30;
@@ -66,19 +66,20 @@ const Navbar = styled(NavbarStructure)`
 
         div {
             background-color: #fff;
-            width: 30px;
-            height: 2.5px;
+            width: 35px;
+            height: 3px;
+            transition: transform 0.3s, opacity 0.3s;
         }
 
         &.open {
             #upper {
-                transform: rotate(45deg) translate(4px, 3px);
+                transform: rotate(45deg) translate(6.5px, 7px);
             }
             #middle {
-                display: none;
+                opacity: 0;
             }
             #lower {
-                transform: rotate(-45deg) translate(4px, -3px);
+                transform: rotate(-45deg) translate(6.5px, -7px);
 
             }
         }
@@ -90,8 +91,10 @@ const Navbar = styled(NavbarStructure)`
         width: 100%;
         height: 75px;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-        background-color: #fff;
+        background-color: #ffffff;
+        opacity: 0.5;
         z-index: 1000;
+        transition: opacity 0.3s;
 
         ul {
             width: 100%;
@@ -134,8 +137,23 @@ const Navbar = styled(NavbarStructure)`
                 }
             }
         }
+        
+        &:hover {
+            opacity: 1;
+
+        }
 
     }
+    // GOOD ONE
+    /* @media screen and (max-width: 1000px) {
+        #menu {
+            display: flex;
+        }
+
+        nav {
+            display: none;
+        }
+    } */
 
     /* @media screen and (max-width: 500px) {
         #menu {

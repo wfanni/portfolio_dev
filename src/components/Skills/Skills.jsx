@@ -23,7 +23,7 @@ const SkillsStructure = ({ className }) => {
                     <div className="react">reactjs</div>
                 </div>
                 <div className="progress-bar">
-                    <div className="backend">backend tech <span>(node.js, express.js)</span></div>
+                    <div className="backend">backend tech</div>
                 </div>
             </div>
             <div className="graphic">
@@ -56,11 +56,11 @@ const Skills = styled(SkillsStructure)`
     h2 {
         position: absolute;
         top: 5vh;
-        font-size: 2em;
+        font-size: 2rem;
     }
 
     .progress-bar {
-        width: 600px;
+        width: 55vh;
         height: 40px;
         background-color: #e7e7e7;
         margin-bottom: 2vh;
@@ -87,7 +87,7 @@ const Skills = styled(SkillsStructure)`
             line-height: 38px;
             color: #fff;
             font-family: monospace;
-            font-size: 1.1em;
+            font-size: 1.1rem;
             font-weight: bold;
         }
 
@@ -123,6 +123,15 @@ const Skills = styled(SkillsStructure)`
             width: 50%;
         }
     }
+    // GOOD ONE
+    /* @media screen and (max-width: 1000px) {
+        
+        .progress-bar {
+            width: 35vh;
+            height: 30px;
+        }
+
+    } */
 
     /* @media screen and (max-width: 700px) {
         gap: 0;

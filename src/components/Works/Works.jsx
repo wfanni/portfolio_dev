@@ -67,7 +67,7 @@ const WorksStructure = ({ className }) => {
 const Works = styled (WorksStructure)`
     position: relative;
     width: 100%;
-    height: 210vh;
+    height: 230vh;
 
     display: flex;
     justify-content: flex-start;
@@ -78,16 +78,16 @@ const Works = styled (WorksStructure)`
 
     h2 {
         margin-top: 5vh;
-        font-size: 2em;
+        font-size: 2rem;
     }
 
     div {
         width: 70%;
-        min-height: 65vh;
+        max-height: 65vh;
 
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(6, 1fr);
         /* grid-auto-flow: column; */
         gap: 10vh;
         
@@ -100,7 +100,7 @@ const Works = styled (WorksStructure)`
         text-align: center;
         
         img {
-            width: 65%;
+            width: 25vw;
             box-shadow: -10px 10px 50px rgba(0, 0, 0, 0.25);
             cursor: pointer;            
             transition: opacity 0.3s;
@@ -128,7 +128,25 @@ const Works = styled (WorksStructure)`
         background-position: 300% center;
         }
     }
+    // GOOD ONE
+    /* @media screen and (max-width: 1000px) {
 
+        min-height: 300vh;
+
+        div {
+            max-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .works {
+            img {
+                width: 60%;
+            }
+        }
+    } */
     
     /* @media screen and (max-width: 700px) {
         height: 375vh;

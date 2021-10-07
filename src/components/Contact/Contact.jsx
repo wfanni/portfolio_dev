@@ -34,9 +34,8 @@ const Contact = styled(ContactStructure)`
 
     h2 {
         position: absolute;
-        top: 35vh;
-        font-size: 2em;
-        margin-top: -20vh;
+        top: 15vh;
+        font-size: 2rem;
 
         span {
             position: absolute;
@@ -84,6 +83,25 @@ const Contact = styled(ContactStructure)`
         right: 60vh;
 
     }
+    // GOOD ONE
+    /* @media screen and (max-width: 1000px) {
+        h2 {
+            top: 10vh;
+            font-size: 1.5rem;
+            margin-left: -20vh;
+        }
+        div {
+            width: 50%;
+            margin-top: 30vh;
+        }
+        .contact-photo {
+            position: relative;
+            top: 0;
+            left: 30%;
+            order: 2;
+            width: 25%;
+        }
+    } */
 
     /* @media screen and (max-width: 700px) {
         h2 {
