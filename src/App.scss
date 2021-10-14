@@ -4,6 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: monospace;
+  overflow-x: hidden;
 
   a {
     text-decoration: none;
@@ -14,6 +15,10 @@ body {
     padding: 0;
     margin: 0;
     list-style: none;
+  }
+
+  &.stopScroll {
+    overflow: hidden;
   }
 }
 
@@ -30,33 +35,32 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 }
 
-@media only screen and (max-width: 30cm) {
-  #root {
-    #alert {
-      display: inline-block;
-      font-size: 2em;
-      text-align: center;
-      margin: 20%;
-      width: 60%;
-      img {
-        width: 25%;
-      }
-    }
-    div {
-      display: none;
-    }
-  }
-}
+// @media only screen and (max-width: 30cm) {
+//   #root {
+//     #alert {
+//       display: inline-block;
+//       font-size: 2em;
+//       text-align: center;
+//       margin: 20%;
+//       width: 60%;
+//       img {
+//         width: 25%;
+//       }
+//     }
+//     div {
+//       display: none;
+//     }
+//   }
+// }
 
-// @media screen and (max-width: 700px) {
-//   #root div {
-//     width: 100%;
-//     display: flex;
-//     justify-content: flex-start;
-//     align-items: center
-//     flex-direction: column;
+// @media screen and (max-width: 1000px) {
+//   #root {
+//     #page {
+//       align-items: center;
+//     }
 //   }
 // }

@@ -38,7 +38,7 @@ const HomeStructure = ({ className }) => {
 
 const Home = styled(HomeStructure)`
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
 
     background-image: url(${pattern});
 
@@ -50,13 +50,13 @@ const Home = styled(HomeStructure)`
     #hero {
         transform: translateY(-10vh);
         opacity: 0;
-        /* clip-path: polygon(50% 0, 100% 0, 94% 62%, 55% 100%, 4% 63%, 0 32%); */
+        margin-left: 10vh;
         transition: transform 1.5s, opacity 1.5s;
     }
 
     .welcome {
         margin-top: -10vh;
-        width: 50vh;
+        width: 25vw;
         height: 15vh;
 
         span {
@@ -95,7 +95,7 @@ const Home = styled(HomeStructure)`
         }
     }
     // GOOD ONE
-    /* @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1000px) {
 
         flex-direction: column;
         gap: 5vh;
@@ -103,6 +103,7 @@ const Home = styled(HomeStructure)`
         #hero {
             width: 50%;
             transform: translateY(-10vh);
+            margin: 0;
             order: 2;
             
 
@@ -110,7 +111,7 @@ const Home = styled(HomeStructure)`
 
         .welcome {
             margin: 0;
-            width: 75vh;
+            width: 100%;
             text-align: center;
 
             #myName {
@@ -120,11 +121,12 @@ const Home = styled(HomeStructure)`
             }
 
             #whoAmI {
-                text-indent: 8vh;
+                text-indent: 30vw;
+                font-size: 1.3em;
             }
 
         }
-    } */
+    }
 
     /* @media screen and (max-width: 700px) {
         flex-direction: column;

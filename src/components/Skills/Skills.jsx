@@ -60,7 +60,7 @@ const Skills = styled(SkillsStructure)`
     }
 
     .progress-bar {
-        width: 55vh;
+        width: 25vw;
         height: 40px;
         background-color: #e7e7e7;
         margin-bottom: 2vh;
@@ -124,14 +124,33 @@ const Skills = styled(SkillsStructure)`
         }
     }
     // GOOD ONE
-    /* @media screen and (max-width: 1000px) {
-        
-        .progress-bar {
-            width: 35vh;
-            height: 30px;
+    @media screen and (max-width: 1000px) {
+        max-width: 100%;
+
+        flex-direction: column;
+        gap: 0;
+
+        h2 {
+            position: relative;
+            margin-bottom: 5vh;
         }
 
-    } */
+        .web-tech {
+            margin-top: 5vh;
+
+        }
+        .graphic {
+            margin-bottom: 5vh;
+
+        }
+        
+        .progress-bar {
+            width: 75vw;
+            height: 30px;
+
+        }
+
+    }
 
     /* @media screen and (max-width: 700px) {
         gap: 0;

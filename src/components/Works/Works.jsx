@@ -67,13 +67,15 @@ const WorksStructure = ({ className }) => {
 const Works = styled (WorksStructure)`
     position: relative;
     width: 100%;
-    height: 230vh;
+    max-height: 100vh;
 
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     gap: 5vh;
+    /* padding-bottom: 5vh; */
+
 
 
     h2 {
@@ -82,15 +84,17 @@ const Works = styled (WorksStructure)`
     }
 
     div {
-        width: 70%;
-        max-height: 65vh;
+        width: 80%;
+        padding: 10vh 0 5vh 0;
+
+        background: rgb(231,231,231);
+        background: radial-gradient(circle, rgba(231,231,231,1) 13%, rgba(255,255,255,1) 81%);
 
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(6, 1fr);
-        /* grid-auto-flow: column; */
-        gap: 10vh;
-        
+        grid-auto-flow: column;
+        overflow: auto;        
         
     }
     
@@ -98,10 +102,11 @@ const Works = styled (WorksStructure)`
         position: relative;
         cursor: default;
         text-align: center;
+        margin-bottom: 5vh;
         
         img {
             width: 25vw;
-            box-shadow: -10px 10px 50px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 1vw 3vw rgba(0, 0, 0, 0.25);
             cursor: pointer;            
             transition: opacity 0.3s;
 
@@ -129,24 +134,52 @@ const Works = styled (WorksStructure)`
         }
     }
     // GOOD ONE
-    /* @media screen and (max-width: 1000px) {
-
-        min-height: 300vh;
+    @media screen and (max-width: 1000px) {
 
         div {
-            max-height: 100vh;
+            height: 75vh;
+            width: 80vw;
+            padding-bottom: 6vh;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
             align-items: center;
+            gap: 15vh;
+            overflow: auto;
+
         }
 
         .works {
             img {
-                width: 60%;
+                width: 60vw;
+            }
+
+            a {
+                bottom: -12vh;
+                left: 50%;
+                transform: translateX(-50%);
+                padding: 15px;
+                margin-bottom: 3vh;
+                width: 30vw;
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                font-weight: bold;
+                letter-spacing: 0.2em;
+                &:hover,
+                &:focus {
+                    opacity: 0.6;
+                }
+            }
+            &:first-child {
+                margin-top: 10vh;
+
+            }
+            &:last-child {
+                margin-bottom: 10vh;
+
             }
         }
-    } */
+    }
     
     /* @media screen and (max-width: 700px) {
         height: 375vh;

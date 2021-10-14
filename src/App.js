@@ -16,8 +16,8 @@ export default function App() {
       <h3 id="alert">Mobile version is on the way...
         <img src={mobile} alt="mobile" />
       </h3>
+      <Navbar />
       <div id="page">
-        <Navbar />
         <Home />
         <About />
         <Skills />
