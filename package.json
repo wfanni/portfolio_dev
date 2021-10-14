@@ -1,6 +1,6 @@
 {
-  "homepage": "http://wfanni.github.io/portfolio.github.io",
-  "name": "portfolio.github.io",
+  "homepage": "http://wfanni.github.io/portfolio_dev.github.io",
+  "name": "portfolio_dev.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
