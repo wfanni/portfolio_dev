@@ -13,16 +13,18 @@ import mobile from './components/media/mobile.png';
 export default function App() {
   return (
     <>
-      <h3 id="alert">Mobile version is on the way...
+      {/* <h3 id="alert">Mobile version is on the way...
         <img src={mobile} alt="mobile" />
-      </h3>
-      <Navbar />
-      <div id="page">
-        <Home />
-        <About />
-        <Skills />
-        <Works />
-        <Contact />
+      </h3> */}
+      <div className="wrapper">
+        <Navbar />
+        <div id="page">
+          <Home />
+          <About />
+          <Skills />
+          <Works />
+          <Contact />
+        </div>
       </div>
     </>
   );
